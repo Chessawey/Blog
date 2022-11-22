@@ -1,0 +1,7 @@
+.book-gif {
+  display: flex;
+  width: 90.5vw;
+  height: 90.5vh;
+  justify-content: center;
+  align-items: center;
+}
