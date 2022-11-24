@@ -1,12 +1,74 @@
-.article {
-  /* background-color: green; */
-  /* color: #fff; */
-  width: 200px;
+.articles {
+  text-transform: uppercase;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  letter-spacing: 4px;
+  font-size: 4rem;
+  text-decoration: underline;
 }
 
-.author_title {
-  margin-left: 5.7rem;
+.title-author {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.create-article {
+  color: #fff;
+  text-decoration: none;
+}
+
+.new-article {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.back-to-articles {
+  color: #fff;
+  text-decoration: none;
+}
+
+.show-articles {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.new {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.new:hover {
+  text-decoration: underline;
+}
+
+.article-title {
+  color: #fff;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.art-title {
+  color: #fff;
+  text-decoration: none;
+}
+
+.deco {
+  text-decoration: none;
 }

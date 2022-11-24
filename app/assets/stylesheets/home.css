@@ -5,6 +5,9 @@ html {
 body {
   padding: 0;
   margin: 0;
+  background-color: #344d67;
+  color: #fff;
+  background-size: cover;
 }
 
 main {
@@ -12,4 +15,39 @@ main {
   padding: 2rem;
 }
 
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #22a39f;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 15px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #009eff;
+}
+
+.btn-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*   background-image: url("book-bg.jpg"); */
